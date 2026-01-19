@@ -1,0 +1,46 @@
+# AI Prompt Log
+
+This file records the key feature requests and development milestones for the Book Club App.
+
+---
+
+## [2026-01-19T01:13:43Z]
+**Feature Request:** Initial App Setup & Configuration
+**AI Action:** 
+- Configured Supabase integration (`src/lib/supabase.ts`).
+- Resolved module resolution errors to ensure stable environment.
+
+---
+
+## [2026-01-19T03:00:00+01:00]
+**Feature Request:** UI Polish & iPhone 15 Pro Max Support
+**AI Action:** 
+- Implemented `SafeAreaProvider` for device notch handling.
+- Redesigned `BookCard` with premium aesthetic (shadows, spacing).
+
+## [2026-01-19T04:05:00+01:00]
+**Feature Request:** Visual Ratings & Enhanced Covers
+**AI Action:** 
+- Replaced text ratings with visual Gold Star icons (★★★★☆).
+- Enhanced book cover rendering with 3D-style drop shadows.
+
+## [2026-01-19T04:07:00+01:00]
+**Feature Request:** Community Reviews System
+**AI Action:**
+- Implemented logic to find and display reviews from other users for the same book title.
+- Added a "Community Reviews" section to the Book Detail screen.
+
+## [2026-01-19T04:10:00+01:00]
+**Feature Request:** Streamlined User Profiles
+**AI Action:**
+- Removed manual Avatar URL input.
+- Enforced consistent auto-generated avatars based on usernames.
+
+## [2026-01-19T04:12:00+01:00]
+**Feature Request:** Custom Book Cover URLs
+**AI Action:**
+- Updated database schema to support `cover_url`.
+- Added input field for custom cover URLs in `AddBook` screen.
+- Updated UI to display custom covers with efficient fallbacks.
+
+
